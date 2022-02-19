@@ -23,11 +23,12 @@ Read data files from: /usr/bin/../share/nmap
 
 <a name="nc"><h2>Получение оболочки</h2></a>
 
+<a name="python"></a>
+
 Взглянем на порт 10000. Попробуем подключиться по **nc**
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/1.png)
 
-<a name="python"></a>
 Мы имеем дело с программой на python и для ввода используется функция "**input()**". Можем попытаться запустить системную команду.
 
 ```
