@@ -1,10 +1,10 @@
 # Develpy
 
-:white_check_mark: **nc**(#nc)
+:white_check_mark:  [**nc**](#nc)
 
-:white_check_mark: **python**(#python)
+:white_check_mark: [**python**](#python)
 
-:white_check_mark: **crontab**(#crontab)
+:white_check_mark: [**crontab**](#crontab)
 ___
 
 ## Разведка
@@ -20,19 +20,21 @@ PORT      STATE SERVICE          REASON
                                                                                                          
 Read data files from: /usr/bin/../share/nmap                                                         
 ```
-<a name="nc">
-## Получение оболочки
+
+<a name="nc"><h2>Получение оболочки</h2></a>
+
 Взглянем на порт 10000. Попробуем подключиться по **nc**
-<a name="python">
+
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/1.png)
 
+<a name="python"></a>
 Мы имеем дело с программой на python и для ввода используется функция "**input()**". Можем попытаться запустить системную команду.
 
 ```
 __import__("os").system("bash")
 ```
-<a name="crontab">
-## Повышение привилегий
+<a name="crontab"><h2>Повышение привилегий</h2></a>
+
 Посмотрим что находится в crontab.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/2.png)
