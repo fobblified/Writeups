@@ -8,7 +8,6 @@
 ___
 
 ## Разведка
----
 Сканируем ip командой:
 ```
 nmap -vv -p 1-10000 develpy.thm
@@ -23,7 +22,6 @@ Read data files from: /usr/bin/../share/nmap
 ```
 
 ## Получение оболочки
-____
 Взглянем на порт 10000. Попробуем подключиться по **nc**
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/1.png)
@@ -35,7 +33,6 @@ __import__("os").system("bash")
 ```
 
 ## Повышение привилегий
-___
 Посмотрим что находится в crontab.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/2.png)
