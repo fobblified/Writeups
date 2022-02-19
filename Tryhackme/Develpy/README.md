@@ -6,8 +6,6 @@
 
 :white_check_mark: **crontab**
 ___
-<br>
-<br>
 
 ## Разведка
 ---
@@ -23,8 +21,6 @@ PORT      STATE SERVICE          REASON
                                                                                                          
 Read data files from: /usr/bin/../share/nmap                                                         
 ```
-<br>
-<br>
 
 ## Получение оболочки
 ____
@@ -37,8 +33,6 @@ ____
 ```
 __import__("os").system("bash")
 ```
-<br>
-<br>
 
 ## Повышение привилегий
 ___
