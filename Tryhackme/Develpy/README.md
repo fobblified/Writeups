@@ -29,14 +29,14 @@ Read data files from: /usr/bin/../share/nmap
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/1.png)
 
-Мы имеем дело с программой на python и для ввода используется функция "**input()**". Можем попытаться запустить системную команду.
+Мы имеем дело с программой на python, и для ввода используется функция "**input()**". Можем попытаться запустить системную команду.
 
 ```
 __import__("os").system("bash")
 ```
 <a name="crontab"><h2>Privilege escalation</h2></a>
 
-Посмотрим что находится в crontab.
+Посмотрим, что находится в crontab.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/develpy/2.png)
 
