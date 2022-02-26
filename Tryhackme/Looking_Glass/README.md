@@ -113,7 +113,7 @@ sudo /sbin/reboot
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/18.png)
 
-<a name="vigenere"></a>
+<a name="sudo"></a>
 
 У нас есть доступ к просмотру "**sudoers.d**". Юзер alice имеет права sudo для **/bin/bash**.
 
