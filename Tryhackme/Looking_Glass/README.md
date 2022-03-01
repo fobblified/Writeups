@@ -64,7 +64,7 @@ PORT      STATE SERVICE    VERSION
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/7.png)
 
-##Users Enumeration
+## Users Enumeration
 
 <a name="reboot"></a>
 
@@ -115,7 +115,7 @@ sudo /sbin/reboot
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/18.png)
 
-##Privilege escalation
+## Privilege escalation
 
 <a name="sudo"></a>
 
