@@ -64,6 +64,8 @@ PORT      STATE SERVICE    VERSION
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/7.png)
 
+##Users Enumeration
+
 <a name="reboot"></a>
 
 Посмотрим какие команды можно выполнять от **sudo**
@@ -112,6 +114,8 @@ sudo /sbin/reboot
 Копируем ключ и подключаемся по ssh к юзеру alice.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/18.png)
+
+##Privilege escalation
 
 <a name="sudo"></a>
 
