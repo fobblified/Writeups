@@ -1,10 +1,12 @@
 # Harder
 
-:white_check_mark:  [**Vigenere Decode**](#vigenere)
+:white_check_mark:  [**git**](#git)
 
-:white_check_mark: [**reboot**](#reboot)
+:white_check_mark: [**hmac**](#hmac)
 
-:white_check_mark: [**sudo**](#sudo)
+:white_check_mark: [**hash**](#hash)
+
+:white_check_mark: [**gpg**](#gpg)
 ___
 
 ## Enumeration
@@ -60,6 +62,8 @@ gobuster dir -u http://pwd.harder.local -w /usr/share/wordlists/dirb/common.txt
 /index.php            (Status: 200) [Size: 19926]
 ```
 
+<a name="git"></a>
+
 Находим директорию **/.git/HEAD**/. Попробуем сдампить **git** с [git-dumper](https://github.com/arthaud/git-dumper).
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Harder/3.png)
@@ -69,11 +73,15 @@ gobuster dir -u http://pwd.harder.local -w /usr/share/wordlists/dirb/common.txt
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Harder/4.png)
 
+<a name="hmac"></a>
+
 Откроем файл **hmac.php**. 
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Harder/5.png)
 
 Скрипт сначала проверяет наличие **GET[‘h’]** или **GET[‘host’]**. Если один из них пуст - соединение обрывается. Затем скрипт включает файл secret.php, которого у нас нет в репозитории git. Далее, если **GET[‘n’]** не пуст, генерируется хеш-значение SHA256 с использованием метода HMAC, и ключ достается из файла secret.php, а новый хэш сохраняется в переменной $secret. Теперь, используя этот хэш в $secret в качестве ключа, генерируется хеш SHA256 параметра **GET[‘host’]** и сохраняется в переменной $hm. И, наконец, если $hm не равно **GET['h']**, соединение обрывается. Итак, теперь мы должны предсказать окончательный результат и передать его в **GET['h']**. Чтобы обойти это правило, передаем значение **GET[’n’]** как массив, который, дает значение $secret как ложное.
+
+<a name="hash"></a>
 
 Создаем хэш с нужными условиями: 
 
@@ -123,6 +131,8 @@ Find находит интересный файл, выведем его в ко
 ```
 find / -perm -u=s 2>/dev/null
 ```
+<a name="pgp"></a>
+
 Просмотрим содержимое скрипта. Нужен ключ gpg.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Harder/14.png)
