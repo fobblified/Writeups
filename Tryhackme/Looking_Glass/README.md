@@ -44,7 +44,7 @@ PORT      STATE SERVICE    VERSION
 
 <a name="vigenere"></a>
 
-Попробуем расшифровать текст шифром Виженера.
+Попробуем расшифровать текст шифром Виженера. Воспользуемся [тулзой](https://www.boxentriq.com/code-breaking/vigenere-cipher).
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/3.png)
 
