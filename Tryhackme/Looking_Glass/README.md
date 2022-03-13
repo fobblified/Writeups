@@ -2,9 +2,9 @@
 
 :white_check_mark:  [**Vigenere Decode**](#vigenere)
 
-:white_check_mark: [**reboot**](#reboot)
+:white_check_mark: [**Reboot**](#reboot)
 
-:white_check_mark: [**sudo**](#sudo)
+:white_check_mark: [**Sudo**](#sudo)
 ___
 
 ## Enumeration
