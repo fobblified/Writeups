@@ -1,12 +1,12 @@
 # Harder
 
-:white_check_mark:  [**git**](#git)
+:white_check_mark:  [**Git**](#git)
 
-:white_check_mark: [**hmac**](#hmac)
+:white_check_mark: [**Hmac**](#hmac)
 
-:white_check_mark: [**hash**](#hash)
+:white_check_mark: [**Hash**](#hash)
 
-:white_check_mark: [**gpg**](#gpg)
+:white_check_mark: [**Gpg**](#gpg)
 ___
 
 ## Enumeration
