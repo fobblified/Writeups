@@ -88,7 +88,7 @@ MAC Address: 02:42:99:85:EF:78 (Unknown)
 
 <a name="win_rm"></a>
 
-Порты 5985, 5986 относятся к WinRM. Проэксплуатируем [уязвимость](https://github.com/AlteredSecurity/CVE-2021-38647).
+Порты 5985, 5986 относятся к **WinRM**. Проэксплуатируем [уязвимость](https://github.com/AlteredSecurity/CVE-2021-38647).
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Oh_My_Webserver/9.png)
 
