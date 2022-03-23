@@ -2,7 +2,7 @@
 
 :white_check_mark:  [**Brainfuck**](#brainfuck)
 
-:white_check_mark: [**Stabiling shell**](#stable)
+:white_check_mark: [**Shell stabilisation**](#stable)
 
 :white_check_mark: [**Openssl(capabilities)**](#openssl_cap)
 
