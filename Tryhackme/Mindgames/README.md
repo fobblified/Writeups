@@ -6,7 +6,7 @@
 
 :white_check_mark: [**Openssl(capabilities)**](#openssl_cap)
 
-:white_check_mark: [**Sending files**](#files)
+:white_check_mark: [**Sending files**](#files_send)
 ___
 
 ## Enumeration
@@ -110,7 +110,7 @@ openssl req -engine ./openssl-exploit-engine.so
 
 Получаем рут
 
-<a name="files"></a>
+<a name="files_send"></a>
 
 ## Extra
 Чтобы отправить файл на удаленную машину переходим в директорию с нужным нам файлом. Открываем питон сервер командой:
