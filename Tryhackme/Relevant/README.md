@@ -52,7 +52,7 @@ Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft
 
 Посмотри что находится на **samba**:
 ```
-smbclient -l relevant.thm
+smbclient -L relevant.thm
 ```
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Relevant/2.png)
