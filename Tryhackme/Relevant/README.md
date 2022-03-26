@@ -82,6 +82,8 @@ get passwords.txt
 http://relevant.thm/nt4wrksv/shell.aspx
 ```
 
+![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Relevant/6.png)
+
 <a name="SeImpersonate"></a>
 
 Подключившись к машине, посмотрим права командой:
@@ -89,11 +91,9 @@ http://relevant.thm/nt4wrksv/shell.aspx
 whoami /priv
 ```
 
-![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Relevant/6.png)
+![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Relevant/7.png)
 
 Мы можем видеть SeImpersonate privileges, которые могут быть использованы для повышения привилегий. Находим [эксплоит](https://github.com/dievus/printspoofer)
-
-![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Relevant/7.png)
 
 Закидываем эксплоит на **samba**, он будет находиться в директории **C:\inetpub\wwwroot\nt4wrksv**.
 
