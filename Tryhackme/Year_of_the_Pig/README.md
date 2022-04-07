@@ -167,4 +167,8 @@ sudoedit /var/www/html/*/*/config.php
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Year_of_the_Pig/13.png)
 
+Выходим из файла: **Esc -> :wq**.
+
+Получаем рута: **sudo su**.
+
 Получаем финальный флаг.
