@@ -2,7 +2,7 @@
 
 :white_check_mark:  [**Hydra**](#hydra)
 
-:white_check_mark: [**Mnemonic**](#mnemonic)
+:white_check_mark: [**Mnemonic**](#mnemo)
 
 ___
 
@@ -157,7 +157,7 @@ find / -perm -4000
 wget <Полученный url>
 ```
 
-<a name="mnemonic"></a>
+<a name="mnemo"></a>
 
 Комната называется Mnemonic, поискав в интернете что-то похожее на это, нашел страницу с [тулзой](https://github.com/MustafaTanguner/Mnemonic). 
 
