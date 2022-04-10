@@ -156,6 +156,7 @@ find / -perm -4000
 ```
 wget <Полученный url>
 ```
+
 <a name="mnemonic"></a>
 
 Комната называется Mnemonic, поискав в интернете что-то похожее на это, нашел страницу с [тулзой](https://github.com/MustafaTanguner/Mnemonic). 
