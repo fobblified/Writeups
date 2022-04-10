@@ -3,6 +3,7 @@
 :white_check_mark:  [**Hydra**](#hydra)
 
 :white_check_mark: [**Mnemonic**](#mnemonic)
+
 ___
 
 ## Enumeration
@@ -155,7 +156,6 @@ find / -perm -4000
 ```
 wget <Полученный url>
 ```
-
 <a name="mnemonic"></a>
 
 Комната называется Mnemonic, поискав в интернете что-то похожее на это, нашел страницу с [тулзой](https://github.com/MustafaTanguner/Mnemonic). 
@@ -164,7 +164,7 @@ wget <Полученный url>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Mnemonic/11.png)
 
-## Getting root
+## Getting
 Получаем пароль от пользователя condor. За пользователя condor смотрим права: sudo -l.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Mnemonic/12.png)
