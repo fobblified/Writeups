@@ -1,4 +1,4 @@
-# Mnemonic
+# ColddBox: Easy
 
 :white_check_mark:  [**Wpscan**](#wpscan)
 
