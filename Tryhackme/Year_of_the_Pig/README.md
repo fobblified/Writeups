@@ -2,11 +2,11 @@
 
 :white_check_mark:  [**Crunch**](#crunch)
 
-:white_check_mark: [**Sqlite3**](#sqlite3)
+:white_check_mark: [**Sqlite3 browsing**](#sqlite3)
 
-:white_check_mark: [**Sudoedit**](#sudoedit)
+:white_check_mark: [**Sudoedit(privesc)**](#sudoedit)
 
-:white_check_mark: [**Sudo_version**](#sudo_version)
+:white_check_mark: [**Sudo version(privesc)**](#sudo_version)
 
 ___
 
