@@ -2,15 +2,15 @@
 
 :white_check_mark:  [**Samba**](#samba)
 
-:white_check_mark: [**NFS**](#nfs)
+:white_check_mark: [**NFS getting files**](#nfs)
 
-:white_check_mark: [**Redis**](#redis)
+:white_check_mark: [**Redis browsing**](#redis)
 
-:white_check_mark: [**Rsync**](#rsync)
+:white_check_mark: [**Rsync connection**](#rsync)
 
-:white_check_mark: [**Ssh**](#ssh)
+:white_check_mark: [**Ssh-keygen**](#ssh)
 
-:white_check_mark: [**TeamCity**](#teamcity)
+:white_check_mark: [**TeamCity shell**](#teamcity)
 
 :white_check_mark: [**Ssh tunneling**](#tunneling)
 ___
