@@ -4,7 +4,7 @@
 
 :white_check_mark: [**Shell stabilisation**](#stable)
 
-:white_check_mark: [**Openssl(capabilities)**](#openssl_cap)
+:white_check_mark: [**Openssl(capabilities)(privesc)**](#openssl_cap)
 
 :white_check_mark: [**Sending files**](#files_send)
 ___
