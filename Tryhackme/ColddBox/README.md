@@ -4,6 +4,7 @@
 
 :white_check_mark: [**Wordpress theme editor shell**](#wordpress_theme_editor)
 
+:white_check_mark: [**Find(privesc)**](#find)
 ___
 
 ## Enumeration
@@ -75,6 +76,8 @@ wpscan --url cold.thm --passwords /usr/share/wordlists/rockyou.txt --usernames c
 Переходим на страницу 404.php(cold.thm/wp-content/themes/twentyfifteen/404.php). Получаем shell.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/ColddBox/6.png)
+
+<a name="find"></a>
 
 Закидываем linpeas и находим suid в find.
 
