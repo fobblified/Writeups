@@ -2,15 +2,15 @@
 
 :white_check_mark:  [**Enum4linux**](#enum4linux)
 
-:white_check_mark: [**Hydra**](#hydra)
+:white_check_mark: [**Hydra get request**](#hydra)
 
 :white_check_mark: [**Command Injection(filtering)**](#command_njection_filtering)
 
 :white_check_mark: [**Socat tunneling**](#socat_tunneling)
 
-:white_check_mark: [**Shutdown**](#shutdown)
+:white_check_mark: [**Shutdown(privesc)**](#shutdown)
 
-:white_check_mark: [**PATH**](#PATH)
+:white_check_mark: [**PATH exporting**](#PATH)
 
 ___
 
