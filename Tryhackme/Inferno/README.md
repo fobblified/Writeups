@@ -1,12 +1,12 @@
 # Inferno
 
-:white_check_mark:  [**Hydra**](#hydra)
+:white_check_mark:  [**Hydra get request**](#hydra)
 
-:white_check_mark: [**Codiad**](#codiad)
+:white_check_mark: [**Codiad exploit**](#codiad)
 
-:white_check_mark: [**Openssl**](#openssl)
+:white_check_mark: [**Openssl user creating**](#openssl)
 
-:white_check_mark: [**Tee**](#tee)
+:white_check_mark: [**Tee(privesc)**](#tee)
 ___
 
 ## Enumeration
