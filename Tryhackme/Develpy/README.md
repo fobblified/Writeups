@@ -2,7 +2,7 @@
 
 :white_check_mark:  [**Nc connection**](#nc)
 
-:white_check_mark: [**Python input()**](#python)
+:white_check_mark: [**Python input() function**](#python)
 
 :white_check_mark: [**Crontab file rewrite**](#crontab)
 ___
