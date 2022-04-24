@@ -1,12 +1,12 @@
 # Harder
 
-:white_check_mark:  [**Git**](#git)
+:white_check_mark:  [**Git / git-dumper**](#git)
 
-:white_check_mark: [**Hmac**](#hmac)
+:white_check_mark: [**Hmac.php**](#hmac)
 
-:white_check_mark: [**Hash**](#hash)
+:white_check_mark: [**Hmac hash**](#hash)
 
-:white_check_mark: [**Gpg**](#gpg)
+:white_check_mark: [**Gpg import**](#gpg)
 ___
 
 ## Enumeration
