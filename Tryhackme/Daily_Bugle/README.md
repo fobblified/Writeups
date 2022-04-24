@@ -1,8 +1,8 @@
 # Daily Bugle
 
-:white_check_mark:  [**Joomla**](#joomla)
+:white_check_mark:  [**Joomla 3.7.0 / Joomblah**](#joomla)
 
-:white_check_mark: [**Yum**](#yum)
+:white_check_mark: [**Yum(privesc)**](#yum)
 
 ___
 
