@@ -1,10 +1,10 @@
 # Develpy
 
-:white_check_mark:  [**Nc**](#nc)
+:white_check_mark:  [**Nc connection**](#nc)
 
-:white_check_mark: [**Python**](#python)
+:white_check_mark: [**Python input()**](#python)
 
-:white_check_mark: [**Crontab**](#crontab)
+:white_check_mark: [**Crontab file rewrite**](#crontab)
 ___
 
 ## Enumeration
