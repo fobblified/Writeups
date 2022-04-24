@@ -1,10 +1,10 @@
 # Biteme
 
-:white_check_mark:  [**Php highlighting**](#php)
+:white_check_mark:  [**Php highlighting / .phps**](#php)
 
-:white_check_mark: [**Md5**](#md5)
+:white_check_mark: [**Md5 python auto convert**](#md5)
 
-:white_check_mark: [**Fail2ban**](#fail2ban)
+:white_check_mark: [**Fail2ban config(privesc)**](#fail2ban)
 ___
 
 ## Enumeration
