@@ -2,7 +2,7 @@
 
 :white_check_mark:  [**Vigenere Decode**](#vigenere)
 
-:white_check_mark: [**Sudo**](#sudo)
+:white_check_mark: [**Sudo host**](#sudo)
 ___
 
 ## Enumeration
