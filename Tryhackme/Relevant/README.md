@@ -1,8 +1,8 @@
 # Relevant
 
-:white_check_mark:  [**Samba**](#samba)
+:white_check_mark:  [**Samba directory browsing**](#samba)
 
-:white_check_mark: [**SeImpersonatePrivilege**](#SeImpersonate)
+:white_check_mark: [**SeImpersonatePrivilege exploit**](#SeImpersonate)
 ___
 
 ## Enumeration
