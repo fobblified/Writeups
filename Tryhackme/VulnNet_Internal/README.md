@@ -1,6 +1,6 @@
 # VulnNet: Internal
 
-:white_check_mark:  [**Samba**](#samba)
+:white_check_mark:  [**[Samba directory browsing**](#samba)
 
 :white_check_mark: [**NFS getting files**](#nfs)
 
