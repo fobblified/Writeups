@@ -2,9 +2,9 @@
 
 :white_check_mark:  [**Sockets**](#sockets)
 
-:white_check_mark: [**Mongodb**](#mongodb)
+:white_check_mark: [**Mongodb browsing**](#mongodb)
 
-:white_check_mark: [**LD_PRELOAD**](#ld_preload)
+:white_check_mark: [**LD_PRELOAD(privesc)**](#ld_preload)
 ___
 
 ## Enumeration
