@@ -1,8 +1,8 @@
 # ColddBox: Easy
 
-:white_check_mark:  [**Wpscan**](#wpscan)
+:white_check_mark:  [**Wpscan user and pass enum**](#wpscan)
 
-:white_check_mark: [**Wordpress_theme_editor**](#wordpress_theme_editor)
+:white_check_mark: [**Wordpress theme editor shell**](#wordpress_theme_editor)
 
 ___
 
