@@ -2,8 +2,6 @@
 
 :white_check_mark:  [**Vigenere Decode**](#vigenere)
 
-:white_check_mark: [**Reboot**](#reboot)
-
 :white_check_mark: [**Sudo**](#sudo)
 ___
 
@@ -65,8 +63,6 @@ PORT      STATE SERVICE    VERSION
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Looking_Glass/7.png)
 
 ## Users Enumeration
-
-<a name="reboot"></a>
 
 Посмотрим какие команды можно выполнять от **sudo**
 
