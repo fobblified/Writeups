@@ -2,7 +2,7 @@
 
 :white_check_mark:  [**Samba directory browsing**](#samba)
 
-:white_check_mark: [**SeImpersonatePrivilege exploit**](#SeImpersonate)
+:white_check_mark: [**SeImpersonatePrivilege exploit(privesc)**](#SeImpersonate)
 ___
 
 ## Enumeration
