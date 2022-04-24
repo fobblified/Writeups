@@ -4,7 +4,7 @@
 
 :white_check_mark: [**Python input() function**](#python)
 
-:white_check_mark: [**Crontab file rewrite**](#crontab)
+:white_check_mark: [**Crontab file rewrite(privesc)**](#crontab)
 ___
 
 ## Enumeration
