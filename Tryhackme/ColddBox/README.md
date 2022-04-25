@@ -1,6 +1,8 @@
 # ColddBox: Easy
 
-:white_check_mark:  [**Wpscan user and pass enum**](#wpscan)
+:white_check_mark:  [**Wpscan user enum**](#wpscan_enum)
+
+:white_check_mark:  [**Wpscan pass brute**](#wpscan_brute)
 
 :white_check_mark: [**Wordpress theme editor shell**](#wordpress_theme_editor)
 
@@ -45,7 +47,7 @@ gobuster dir -u http://cold.thm/ -t 100 -w /usr/share/wordlists/dirbuster/direct
 
 Можем заметить некторые имена пользователей.
 
-<a name="wpscan"></a>
+<a name="wpscan_enum"></a>
 
 На главной странице мы могли заметить, что сайт работает на wordpress, перейдем в директорию /wp-admin/. Просканируем с помощью **wpscan** имена пользователей.
 ```
@@ -53,6 +55,9 @@ wpscan --url cold.thm --enumerate u
 ```
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/ColddBox/3.png)
+
+
+<a name="wpscan_brute"></a>
 
 Попробуем сбрутить пароль для имени пользователя c0ldd:
 ```
