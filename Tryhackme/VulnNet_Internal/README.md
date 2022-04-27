@@ -92,7 +92,7 @@ showmount -e internal.thm
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/VulnNet_Internal/4.png)
 
-Сначала создадим каталог, чтобы чтобы монтировать ресурсы.
+Сначала создадим каталог, чтобы монтировать ресурсы.
 ```
 mkdir /tmp/mount0
 ```
