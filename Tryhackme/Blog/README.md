@@ -1,6 +1,6 @@
 # Blog
 
-:white_check_mark:  [*Wpscan user enum**](#wpscan_user)
+:white_check_mark:  [**Wpscan user enum**](#wpscan_user)
 
 :white_check_mark: [**Wpscan pass brute**](#wpscan_pass)
 
