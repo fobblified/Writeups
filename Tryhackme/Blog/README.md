@@ -4,7 +4,7 @@
 
 :white_check_mark: [**Wpscan pass brute**](#wpscan_pass)
 
-:white_check_mark: [**Wordpress 5.0 Crop-image**](#crop_image)
+:white_check_mark: [**Wordpress 5.0 Crop-image exploit**](#crop_image)
 
 :white_check_mark: [**Getenv(privesc)**](#getenv)
 ___
