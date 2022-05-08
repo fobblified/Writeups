@@ -19,7 +19,7 @@
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_UNION_attack_retrieving_multiple_values_in_a_single_column/assets/1.png)
 
-Выбираем пункт Lifestyle. Определяем количество стобцов и какой тип данных они принимают. Вытаскиваем имена пользователей и пароли и таблицы в удобной формате.
+Выбираем пункт Lifestyle. Определяем [количество стобцов](https://github.com/fobblified/Writeups/tree/main/Portswigger/SQL_injection/SQL_injection_UNION_attack_determining_the_number_of_columns_returned_by_the_query) и какой [тип данных](https://github.com/fobblified/Writeups/tree/main/Portswigger/SQL_injection/SQL_injection_UNION_attack_finding_a_column_containing_text) они принимают. Вытаскиваем имена пользователей и пароли и таблицы в удобной формате.
 ```
 /filter?category=AccessoriesUNION+SELECT+NULL,username+||"~"||+password+FROM+users--
 ```
