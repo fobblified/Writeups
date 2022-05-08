@@ -28,42 +28,64 @@
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/1.png)
 
+<hr>
+
 <a name="Substring"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/2.png)
+
+<hr>
 
 <a name="Comments"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/3.png)
 
+<hr>
+
 <a name="Database_version"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/4.png)
+
+<hr>
 
 <a name="Database_contents"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/5.png)
 
+<hr>
+
 <a name="Conditional_errors"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/6.png)
+
+<hr>
 
 <a name="Batched_queries"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/7.png)
 
+<hr>
+
 <a name="Time_delays"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/8.png)
+
+<hr>
 
 <a name="Conditional_time_delays"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/9.png)
 
+<hr>
+
 <a name="DNS_lookup"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/10.png)
 
+<hr>
+
 <a name="DNS_lookup_with_data_exfiltration"></a>
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/SQL_injection_cheatsheet/assets/11.png)
+
+<hr>
