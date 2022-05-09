@@ -92,6 +92,6 @@ xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator')
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/Blind_SQL_injection_with_conditional_responses/assets/6.png)
 
-Логинимся под администратора и получаем ответ от приложения
+Логинимся под администратора и получаем ответ от приложения.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/SQL_injection/Blind_SQL_injection_with_conditional_responses/assets/7.png)
