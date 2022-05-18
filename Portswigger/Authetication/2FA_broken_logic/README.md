@@ -95,7 +95,7 @@ verification-code=123456
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_broken_logic/assets/12.png)
 
-Копирует url и вставляем в браузер.
+Копируем url и вставляем в браузер.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_broken_logic/assets/13.png)
 
