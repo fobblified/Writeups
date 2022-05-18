@@ -34,7 +34,7 @@
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_simple_bypass/assets/5.png)
 
-В строке браузера моно заметить следующий url: **https://ac8a1f801ff4f677c09ef7ad00f40005.web-security-academy.net/my-account**. Нас перекидывает на страницу **/my-account**. Затем воздем с имеющимися данными пользователя carlos. На странице двухфакторной аутентификации в строке браузера изменим url добавив **/my-account**. 
+В строке браузера можно заметить следующий url: **https://ac8a1f801ff4f677c09ef7ad00f40005.web-security-academy.net/my-account**. Нас перекидывает на страницу **/my-account**. Затем войдем с имеющимися данными пользователя carlos. На странице двухфакторной аутентификации в строке браузера изменим url добавив **/my-account**. 
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_simple_bypass/assets/6.png)
 
