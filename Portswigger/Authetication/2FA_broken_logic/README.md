@@ -61,7 +61,7 @@ verification-code=123456
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_broken_logic/assets/3.png)
 
-Сверху нажимаем на кнопку "**Email client**", чтобы перейти на станицу "почты" для получения кода.
+Сверху нажимаем на кнопку "**Email client**", чтобы перейти на страницу "почты" для получения кода.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_broken_logic/assets/4.png)
 
@@ -73,7 +73,7 @@ verification-code=123456
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_broken_logic/assets/6.png)
 
-Отправим его в Burp Repeater и изменим имени пользователя на имя пользователя жертвы. Оправляем запрос.
+Отправим его в Burp Repeater и изменим имя пользователя на имя пользователя жертвы. Оправляем запрос.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Authetication/2FA_broken_logic/assets/7.png)
 
