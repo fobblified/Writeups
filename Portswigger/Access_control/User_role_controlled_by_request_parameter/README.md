@@ -1,4 +1,4 @@
-# User role controlled by request parameter
+# User role can be modified in user profile
 
 ## Theory
 
@@ -13,6 +13,9 @@ https://insecure-website.com/login/home.jsp?role=1
 Этот подход принципиально небезопасен, поскольку пользователь может просто изменить значение и получить доступ к функциональным возможностям, к которым у него нет полномочий, например к административным функциям.
 
 ## Writeup
+
+* Имеющиеся данные: 
+    * Данные нашего аккаунта: wiener:peter
 
 Главная страница:
 
