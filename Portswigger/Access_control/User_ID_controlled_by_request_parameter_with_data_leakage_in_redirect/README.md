@@ -30,11 +30,11 @@ https://insecure-website.com/myaccount?id=123
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Access_control/User_ID_controlled_by_request_parameter_with_data_leakage_in_redirect/assets/2.png)
 
-Обновим страницу и перехватим запрос. Отправив этот же запрос, мы можем увидеть, что нам приходит ответ, в котором отображено все содержимое страницы, включаю ключ API.
+Обновим страницу и перехватим запрос. Отправив этот же запрос, мы можем увидеть, что нам приходит ответ, в котором отображено все содержимое страницы, включая ключ API.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Access_control/User_ID_controlled_by_request_parameter_with_data_leakage_in_redirect/assets/3.png)
 
-Изменим id пользователя на carlos и отправим запрос. Нам так же пришел ответ с содержимым страницы. Скопируем ключ API.
+Изменим id пользователя на carlos и отправим запрос. Нам также пришел ответ с содержимым страницы. Скопируем ключ API.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Access_control/User_ID_controlled_by_request_parameter_with_data_leakage_in_redirect/assets/4.png)
 
