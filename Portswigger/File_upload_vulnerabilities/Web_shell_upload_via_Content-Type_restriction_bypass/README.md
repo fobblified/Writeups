@@ -69,6 +69,6 @@ wiener
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/File_upload_vulnerabilities/Web_shell_upload_via_Content-Type_restriction_bypass/assets/7.png)
 
-Подтверждаем отвер и получаем ответ от сервера.
+Подтверждаем ответ и получаем ответ от сервера.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/File_upload_vulnerabilities/Web_shell_upload_via_Content-Type_restriction_bypass/assets/8.png)
