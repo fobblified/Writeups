@@ -49,6 +49,6 @@ GET /example/exploit.php?command=id HTTP/1.1
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/File_upload_vulnerabilities/Remote_code_execution_via_web_shell_upload/assets/5.png)
 
-Подтверждаем отвер и получаем ответ от сервера.
+Подтверждаем ответ и получаем ответ от сервера.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/File_upload_vulnerabilities/Remote_code_execution_via_web_shell_upload/assets/6.png)
