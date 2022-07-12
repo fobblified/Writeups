@@ -13,7 +13,7 @@ onerror=alert;throw 1
 
 Главная страница:
 
-![](https://github.com/fobblified/Writeups/blob/main/Portswigger/(XSS)_Cross-site_scripting/Reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/assets/1.png)
+![](./assets/1.png)
 
 Мы будем использовать следующий экплоит для решения задания:
 ```
