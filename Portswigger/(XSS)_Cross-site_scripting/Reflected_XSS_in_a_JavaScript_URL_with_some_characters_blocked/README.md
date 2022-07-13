@@ -35,4 +35,4 @@ https://0a8f0052048cd6c1c072161f00e2000b.web-security-academy.net/post?postId=5&
 
 Получаем ответ от сервера.
 
-![](https://github.com/fobblified/Writeups/blob/main/Portswigger/(XSS)_Cross-site_scripting/Reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/assets/2.png)
+![](./assets/2.png)
