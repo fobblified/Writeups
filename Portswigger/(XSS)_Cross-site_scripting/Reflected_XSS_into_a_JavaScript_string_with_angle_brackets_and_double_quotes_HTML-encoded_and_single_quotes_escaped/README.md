@@ -40,7 +40,7 @@
 
 Главная страница:
 
-![](https://github.com/fobblified/Writeups/blob/main/Portswigger/(XSS)_Cross-site_scripting/Reflected_XSS_into_a_JavaScript_string_with_angle_brackets_and_double_quotes_HTML-encoded_and_single_quotes_escaped/assets/1.png)
+![](./assets/1.png)
 
 Отправим запрос в строке поиска и перехватим его.
 

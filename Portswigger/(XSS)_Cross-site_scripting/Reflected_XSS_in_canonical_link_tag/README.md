@@ -12,7 +12,7 @@
 
 Главная страница:
 
-![](https://github.com/fobblified/Writeups/blob/main/Portswigger/(XSS)_Cross-site_scripting/Reflected_XSS_in_canonical_link_tag/assets/1.png)
+![](./assets/1.png)
 
 Для решения будем использовать следующий экплоит:
 ```
