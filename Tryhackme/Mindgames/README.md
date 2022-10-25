@@ -69,7 +69,7 @@ pty.spawn("/bin/bash")
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 export TERM=xterm
 CTRL+z
-stty raw echo; fg
+stty raw -echo; fg
 ```
 
 <a name="openssl_cap"></a>
