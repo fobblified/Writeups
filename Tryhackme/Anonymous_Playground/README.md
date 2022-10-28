@@ -37,7 +37,7 @@ Nmap показывает нам директорию, которая содер
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Anonymous_Playground/2.png)
 
-Приложение говорит, что у нас нет доступа. Посмотрим cookie сайта.
+Приложение говорит, что у нас нет доступа. Посмотрим cookie данного сайта.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Anonymous_Playground/3.png)
 
