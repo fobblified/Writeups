@@ -33,7 +33,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Anonymous_Playground/1.png)
 
-Nmap показывает нам директорию, которая содержится в robots.txt, перейдем по ней.
+Nmap показывает нам директорию, которая содержится в файле robots.txt, перейдем по ней.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Tryhackme/assets/Anonymous_Playground/2.png)
 
