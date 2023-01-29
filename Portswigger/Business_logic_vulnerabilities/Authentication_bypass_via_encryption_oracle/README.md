@@ -37,7 +37,7 @@
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Business_logic_vulnerabilities/Authentication_bypass_via_encryption_oracle/assets/5.png)
 
-Теперь мы можем уидеть свой комментарий на этой странице.
+Теперь мы можем увидеть свой комментарий на этой странице.
 
 ![](https://github.com/fobblified/Writeups/blob/main/Portswigger/Business_logic_vulnerabilities/Authentication_bypass_via_encryption_oracle/assets/6.png)
 
