@@ -274,6 +274,4 @@ sudo /usr/local/sbin/build-installer.sh make 1.py
 
 Скрипт успешно отработал. Используем команду **bash -p** для получения root.
 
-![](12.png)
-
 ![](../assets/Soccer/12.png)
