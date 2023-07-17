@@ -25,31 +25,21 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Главная страница сайта:
 
-![](1.png)
-
 ![](../assets/Inject/1.png)
 
 На данной странице мы можем найти вкладку для загрузки файлов. Перейдем по ней.
-
-![](2.png)
 
 ![](../assets/Inject/2.png)
 
 Попробуем прокинуть файл php-revershe-shell.php. Но мы получим ошибку и сообщение, что загружаются только картинки. 
 
-![](3.png)
-
 ![](../assets/Inject/3.png)
 
 Переименуем файл в php-revershe-shell.php.jpg и снова загрузим файл. Файл успешно загрузился
 
-![](4.png)
-
 ![](../assets/Inject/4.png)
 
 Но у нас не получится открыть данный файл.
-
-![](5.png)
 
 ![](../assets/Inject/5.png)
 
@@ -59,13 +49,9 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 http://inject.htb:8080/show_image?img=../../../../../../etc/passwd
 ```
 
-![](6.png)
-
 ![](../assets/Inject/6.png)
 
 Также мы можем обнаружить, что мы можем не только читать файлы, но и просматривать директории.
-
-![](7.png)
 
 ![](../assets/Inject/7.png)
 
@@ -75,37 +61,25 @@ http://inject.htb:8080/show_image?img=../../../../../../etc/passwd
 
 Просмотрев файлы, мы можем обнаружить, что сайт использует Spring 2.6.5.
 
-![](8.png)
-
 ![](../assets/Inject/8.png)
 
 Воспользуемся metasploit. В поиске прописываем spring и выбираем эксплоит **spring_cloud_function_spel_injection**.
-
-![](9.png)
 
 ![](../assets/Inject/9.png)
 
 Выставляем нужные параметры и запускаем эксплоит.
 
-![](10.png)
-
 ![](../assets/Inject/10.png)
 
 В директории **/home/frank/.m2** мы можем обнаружить файл setting.xml.
-
-![](11.png)
 
 ![](../assets/Inject/11.png)
 
 В данном файле мы можем найти данные пользователя
 
-![](12.png)
-
 ![](../assets/Inject/12.png)
 
 Логинимся под пользователя phil.
-
-![](13.png)
 
 ![](../assets/Inject/13.png)
 
@@ -114,8 +88,6 @@ http://inject.htb:8080/show_image?img=../../../../../../etc/passwd
 ## Ansible yml file(privesc)
 
 Закинем на машину linpeas и запустим скрипт. В выводе скрипта мы можем обнаружить ansible файл playbook_1.yml.
-
-![](14.png)
 
 ![](../assets/Inject/14.png)
 
@@ -131,8 +103,6 @@ http://inject.htb:8080/show_image?img=../../../../../../etc/passwd
               chmod u+s /bin/bash
             become: true
 ```
-
-![](15.png)
 
 ![](../assets/Inject/15.png)
 
