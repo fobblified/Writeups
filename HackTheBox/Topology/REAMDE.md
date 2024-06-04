@@ -33,8 +33,6 @@ gobuster vhost -u topology.htb -w /usr/share/wordlists/SecLists/Discovery/DNS/su
 
 Главная страница сайта:
 
-![](1.png)
-
 ![](../assets/Topology/1.png)
 
 <a name="LaTeX_file_read"></a>
@@ -42,8 +40,6 @@ gobuster vhost -u topology.htb -w /usr/share/wordlists/SecLists/Discovery/DNS/su
 ## LaTeX file read explot
 
 На главной странице сайта мы можем найти ссылку на поддомен с LaTeX: **latex.topology.htb**. Добавляем его в /etc/hosts и переходим на сайт.
-
-![](2.png)
 
 ![](../assets/Topology/2.png)
 
@@ -53,8 +49,6 @@ gobuster vhost -u topology.htb -w /usr/share/wordlists/SecLists/Discovery/DNS/su
 $\lstinputlisting{/etc/passwd}$
 ```
 
-![](3.png)
-
 ![](../assets/Topology/3.png)
 
 Ранее мы нашли поддомен dev.topology.htb. Попробуем прочитать файл .htpasswd, которых содержит имена пользователей и пароли.
@@ -63,8 +57,6 @@ $\lstinputlisting{/etc/passwd}$
 $\lstinputlisting{/var/www/dev/.htpasswd}$
 ```
 
-![](4.png)
-
 ![](../assets/Topology/4.png)
 
 Расшифруем хэш с помощью John the Ripper:
@@ -72,8 +64,6 @@ $\lstinputlisting{/var/www/dev/.htpasswd}$
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt hash
 ```
-
-![](5.png)
 
 ![](../assets/Topology/5.png)
 
@@ -85,15 +75,11 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hash
 
 Прокинем linpeas на атакуемую машину и запустим скрипт. С помощью него мы можем обнаружить, что на машине используется gnuplot, файлы которого лежат в /opt.
 
-![](6.png)
-
 ![](../assets/Topology/6.png)
 
 На данной [странице](https://stackoverflow.com/questions/27909281/how-to-run-a-system-command-in-gnuplot) мы можем узнать, что мы можем использовать системные команды через gnuplot.
 
 Прокинем на машину pspy64, чтобы просмотреть процессы.
- 
-![](7.png)
 
 ![](../assets/Topology/7.png)
 
